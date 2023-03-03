@@ -5,8 +5,8 @@ name: UEFI firmware - EDK2 build
 
 on:  
   push:
-    tags:
-      - '*'
+     branches:
+      - master
 
 env:
   PROJECT_URL: https://github.com/pftf/RPi4
